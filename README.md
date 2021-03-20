@@ -1,8 +1,14 @@
 # Lane Detection code using OpenCV (cv2) library without Deep Learning.
 
+Result of the code:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/64093617/111854899-150d0400-8922-11eb-8659-2a06b643df64.gif)
+
+
+
+As we need to approach a video as a set of frames, we need to use one pample frame first. 
 <div align="center"> 
 <img src="https://user-images.githubusercontent.com/64093617/111854283-a8443a80-891e-11eb-894c-0e9865a88f4c.png" width=50% height=50% >
-    <p> View of a frame of the footage </p>
+    <p> One frame of the original footage </p>
 </div>
 
 
@@ -25,6 +31,11 @@ The sequence of the code is as follows:
     - combining our image and the mask
     - by applying the output of canny to this function we will get the cropped image of edge detected view
 
+<div align="center"> 
+<img src="https://user-images.githubusercontent.com/64093617/111854457-afb81380-891f-11eb-91a1-45f3a379931d.png" width=50% height=50% >
+    <p> Region of interest - Cropped image of edge-detected view </p>
+</div>
+
 3. Displaying lines
    - by applying cv2.HoughLinesP function, getting the lines of the cropped image.
    - understanding Hough Space and its function in cv2 will help you define the arguments accordingly.
@@ -34,14 +45,8 @@ The sequence of the code is as follows:
    
 6. Defining coordinates
     - lines will be shown from the bottom until to the point indicated in this part of the code
-    
 
-
-
-
-
-
-
+============
 
 If you want to try the code with the same video, upload it and change the path of the video accordingly.
 
