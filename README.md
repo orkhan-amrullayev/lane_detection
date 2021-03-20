@@ -6,7 +6,7 @@ The sequence of the code is as follows:
     - bluring the grayscaled view in order to make the sharp transitions smooth for future detection
     - using cv2.Canny, detecting edges of blurred view
    
-![test2](https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png | width=100)
+![test2](https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png)
 
 
 2. Defining region of interest
