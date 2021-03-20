@@ -6,8 +6,8 @@ The sequence of the code is as follows:
     - bluring the grayscaled view in order to make the sharp transitions smooth for future detection
     - using cv2.Canny, detecting edges of blurred view
 
-<div align=”center”> 
-<img src=https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png" width=50% height=50% >
+<div align="center"> 
+<img src="https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png" width=50% height=50% >
     <p> fff </p>
 </div>
 
