@@ -5,9 +5,8 @@ The sequence of the code is as follows:
     - changing the color channels from 3 to 1 (from RGB to Grayscale)
     - bluring the grayscaled view in order to make the sharp transitions smooth for future detection
     - using cv2.Canny, detecting edges of blurred view
-   
-![test2]()
-<img src="https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png" width="100" height="100">
+
+<img src="https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png" width=50% height=50%>
 
 2. Defining region of interest
     - defining the triangle which the future lines probably will fit inside
