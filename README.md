@@ -1,5 +1,11 @@
 # Lane Detection code using OpenCV (cv2) library without Deep Learning.
 
+<div align="center"> 
+<img src="https://user-images.githubusercontent.com/64093617/111854283-a8443a80-891e-11eb-894c-0e9865a88f4c.png" width=50% height=50% >
+    <p> View of a frame of the footage </p>
+</div>
+
+
 The sequence of the code is as follows:
 1. Using canny function:
     - changing the color channels from 3 to 1 (from RGB to Grayscale)
