@@ -1,6 +1,8 @@
 # Lane Detection code using OpenCV (cv2) library without Deep Learning.
 
-Result of the code:
+Result:
+Even the car does not follow the exact path and slides right & left as it moves, lanes are detected correctly.
+<br>
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/64093617/111854899-150d0400-8922-11eb-8659-2a06b643df64.gif)
 
 
