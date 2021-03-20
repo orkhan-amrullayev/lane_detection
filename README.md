@@ -46,13 +46,13 @@ The sequence of the code is as follows:
    - averaging all the candidate lines (both for the left and right side separately) in order to get one final line for each side
    
 6. Defining coordinates
-    - lines will be shown from the bottom until to the point indicated in this part of the code
+   - lines will be shown from the bottom until to the point indicated in this part of the code
 
 ============
 
-If you want to try the code with the same video, upload it and change the path of the video accordingly.
+If you want to try the code with the same video, upload it and change the path accordingly.
 
-If you want to try the code with your own video, you need to change the lines indicating triangle (52-54) and y1, y2 (9-10) to show the yellow line up to that coordinate.
+If you want to try the code with your own video, you need to change the lines indicating triangle (52-54) and y1, y2 (9-10) to show the blue line up to that coordinate.
 
 Useful link for more explicit explainations:
 https://www.youtube.com/watch?v=eLTLtUVuuy4
