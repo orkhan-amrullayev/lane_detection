@@ -1,10 +1,11 @@
-Lane Detection code without using Deep Learning.
+# Lane Detection code using OpenCV (cv2) library without Deep Learning.
 
 The sequence of the code is as follows:
 1. Using canny function:
     - changing the color channels from 3 to 1 (from RGB to Grayscale)
     - bluring the grayscaled view in order to make the sharp transitions smooth for future detection
     - using cv2.Canny, detecting edges of blurred view
+![test2](https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png)
 
 2. Defining region of interest
     - defining the triangle which the future lines probably will fit inside
@@ -28,7 +29,7 @@ The sequence of the code is as follows:
 
 
 
-![test2](https://user-images.githubusercontent.com/64093617/111852610-e722c200-8917-11eb-85ad-f2e2287ce902.png)
+
 
 
 If you want to try the code with the same video, upload it and change the path of the video accordingly.
