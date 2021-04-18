@@ -7,7 +7,7 @@ Even the car does not follow the exact path and slides right & left as it moves,
 
 
 
-As we need to approach a video as a set of frames, we need to use one pample frame first. 
+As we need to approach a video as a set of image frames, we need to use one pample frame first. 
 <div align="center"> 
 <img src="https://user-images.githubusercontent.com/64093617/111854283-a8443a80-891e-11eb-894c-0e9865a88f4c.png" width=50% height=50% >
     <p> One frame of the original footage </p>
